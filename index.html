@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/main.js" defer></script>
+    <title>Fueled Parallax website</title>
+</head>
+<body class="overflow-x-hidden">
+    <div id="scroller">
+        <div class="scroller">
+            <div id="track">
+            </div>
+            <div id="bar">
+            </div>
+        </div>
+    </div>
+    <!-- header start -->
+    <section class="mx-auto">
+        <header>
+            <div  id="nav_menu" class="nav_expanded text-white font-gtc-400 transition-transform duration-400 sm:hidden">
+                <ul class="pt-24 text-3xl space-y-6 pl-8">
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Team</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition-opacity duration-300 hover:opacity-75">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="transition-colors text-white duration-300 font-gtc-400 z-[140]">
+                
+                <button id="menuBtn" aria-label="Menu" class="menuBtn fixed flex w-12 h-12 p-3 -ml-3 left-8 top-1 z-[160] sm:hidden">
+                    <span class="flex w-full h-full relative">
+                        <span id="ham_left" class="ham_right h-0.5 -mt-px w-full flex absolute bg-current">
+                        </span>
+                        <span id="ham_right" class="ham_left h-0.5 -mt-px w-full flex absolute bg-current">
+                        </span>
+                    </span>
+                </button>
+                <div class="fixed left-0 top-0 right-0 flex z-[140]">
+                    <div class="flex justify-center items-center py-1 sm:py-3 lg:pt-10 constrained">
+                        <a href="#" class="flex sm:-ml-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 30" class="w-12 h-12 p-2 fill-current">
+                                <path fill-rule="evenodd" d="M21 7v1h2v2l-1 1v3l1 1v9h-2V14l-1-1h-2V3l-3-3H5L2 3v25H0v2h20v-2h-2V14h2v10l1 1h2l1-1v-9l1-1V9l-2-2h-2zm-5 6H4V3l1-1h10l1 1v10z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="hidden sm:flex items-center ml-auto p-0 gap-4 *:py-2">
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Services</a>
+                            </li>
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Projects</a>
+                            </li>
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Team</a>
+                            </li>
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Careers</a>
+                            </li>
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Blog</a>
+                            </li>
+                            <li class="before:content-none py-2 px-0 m-0">
+                                <a href="#" class="p-2 transition-opacity duration-[250ms] hover:opacity-70 active:opacity-50">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+        <section id="company_section" class="bg-dark-gray h-screen w-full fixed top-0 left-0 right-0 bottom-0 scroll_visible">
+            <div class="wrapper_box bg-dark-red w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex justify-center items-center">
+                <div class="box bg-dark-gray w-[44.8vh] h-[44.8vh]"></div>
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white  absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">we transform companies</h2>
+            </div>
+            <div class="max-w-[90%] ">
+                <p class="company_p max-w-[32em] md:max-w-[40em] w-3xl text-center absolute left-1/2 -translate-x-1/2 bottom-6 text-sm font-medium  md:text-lg lg:text-xl text-light-white">
+                    Fueled is an award-winning technology consultancy that transforms business by generating ideas,building products and accelerating growth.
+                </p>
+            </div>
+        </section>
+        <section id="wire_section" class="bg-sky-blue h-screen w-full fixed top-0 left-0 right-0 bottom-0 scroll_invisible">
+            <div class="w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 flex justify-center items-center">
+                <img src="assets/img/sq-wire.webp" alt="wire-cutter" class="w-full">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white text-7xl lg:text-[7.5rem] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we ended choice paralysis
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex flex-col md:flex-row items-center justify-center mb-6">
+                    <img src="assets/img/nyTimes.svg" alt="newyorkTimes" class="w-[175px] h-10 mx-4 mt-4">
+                    <img src="assets/img/wireCutter.svg" alt="wireCutter" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">web</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+        <section id="apple_section" class="h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="apple_bg absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+            <div class="apple_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we helped grow sales
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/apple_logo.svg" alt="apple_logo" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">web</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+
+        <section id="warby_section" class="warby_bg h-screen w-full fixed top-0 left-0 right-0 bottom-0 scroll_invisible">
+            <div class="warby_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-dark-black absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center warby_blur.before">
+                    we focus on winning
+                </h2>
+                <h2 class="main_text uppercase font-utd-cond-b text-dark-black absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center warby_blur">
+                    we focus on winning
+                </h2>
+                <h2 class="main_text uppercase font-utd-cond-b text-dark-black absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center warby_blur.after">
+                    we focus on winning
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/warby_logo.svg" alt="warby_parker" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">web</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+
+        <section id="mgm_section" class="h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="mgm_bg absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+            <div class="mgm_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white  absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we fired check-in lines
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/mgm_resorts.svg" alt="apple_logo" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">digital transformation</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>ios</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>android</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+
+        <section id="riteaid_section" class="riteaid_bg h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="riteaid_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white  absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we prescribed efficiency
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/riteaid.svg" alt="rite_aid" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">ios</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>android</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>watchos</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+
+        <section id="crunchbase_section" class="crunchbase_bg h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="crunchbase_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-dark-blue absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we shared investments
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/crunchbase.svg" alt="apple_logo" class="w-[175px] h-10 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">ios</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>design</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>strategy</h6>
+                </ul>
+            </a>
+        </section>
+
+        <section id="whitehouse_section" class="h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="whitehouse_bg absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+            <div class="whitehouse_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 scale-140">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center">
+                    we digitized democracy
+                </h2>
+            </div>
+            <a href="#" class="w-full absolute bottom-6 left-0 right-0 flex flex-col pointer-events-auto text-[.6rem] items-center pt-[2.9vh]">    
+                <div class="flex items-center justify-center mb-6">
+                    <img src="assets/img/whitehouse.png" alt="whitehouse" class="h-12 mx-4 mt-4">
+                </div>
+                <ul class="font-gtc-400-b text-light-white text-[.8rem] lg:text-md uppercase opacity-75 flex items-center justify-center">
+                    <h6 class="inline-block mb-4">strategy</h6>
+                    <h6 class="inline-block mb-4"><pre class="inline-block h-full mx-1 -translate-y-0.5">.</pre>web</h6>
+                </ul>
+            </a>
+        </section>
+        <section class="h-[700vh] md:h-[650vh] -z-10">
+
+        </section>
+        <section id="secret_section" class="w-full  text-light-white">
+            <div class="flex items-center justify-center flex-col p-[10%_5%] relative bg-dark-gray z-50">
+                <div id="red_box" class="invisible opacity-0 fixed flex h-screen items-center justify-center top-0 w-screen ">
+                    <svg class="h-[47vh] w-[47vh]" width="500" height="500" viewBox="0 0 500 500">
+                        <path id="test" d="M 0 0 H 500 V 500 H 0 L 0 0 z" stroke="#303030" stroke-width="10" fill="none" fill-rule="evenodd"></path>
+                        <!-- RED outline -->
+                        <path id="secret_red" d="M 0 0 H 500 V 500 H 0 L 0 0 z" stroke="#AE0000" stroke-width="10" fill="none" fill-rule="evenodd"
+                        stroke-dasharray="2000" stroke-dashoffset="2000"
+                        ></path></svg>
+                </div>
+                <h2 class="text-7xl lg:text-[7.5rem] font-utd-cond-b py-[9.375rem] md:py-[15.625rem] text-center">What's Our Secret?</h2>
+                <div class="font-utd-cond-b flex items-center flex-col mb-[15%] w-[95%] md:grid md:gap-[5%] md:justify-center md:m-[5%] md:w-[65%] md:grid-cols-[20%_65%] md:items-start">
+                    <h4 class="text-[9.375rem] mb-[1.25rem] md:text-[12.5rem] md:m-0 opacity-25">1</h4>
+                    <div class="text-center md:text-left lg:ml-[-5rem] w-[calc(47vh-10%)] md:w-[calc(47vh-10%)] flex flex-col justify-center">
+                        <h3 class="text-5xl lg:text-7xl uppercase">Our process</h3>
+                        <p class="pt-6 pb-12 text-xl font-gtc-400">It's our playbook for client success. It’s the infrastructure that allows our team to create the great things that drive results for our clients.</p>
+                    </div>
+                </div>
+                <div class="font-utd-cond-b flex items-center flex-col mb-[15%] w-[95%] md:grid md:gap-[5%] md:justify-center md:m-[5%] md:w-[65%] md:grid-cols-[20%_65%] md:items-start">
+                    <h4 class="text-[9.375rem] mb-[1.25rem] md:text-[12.5rem] md:m-0 opacity-25">2</h4>
+                    <div class="text-center md:text-left lg:ml-[-5rem] w-[calc(47vh-10%)] md:w-[calc(47vh-10%)] flex flex-col justify-center items-center md:items-start">
+                        <h3 class="text-5xl lg:text-7xl uppercase">Our people</h3>
+                        <p class="pt-6 pb-12 text-xl font-gtc-400">Who come from startups, not agencies. Instead of obsessing over awards, they’ve focused on satisfying customers and users. They’re ex-CEOs, ex-CTOs, ex-CMOs—people who know how to win in the marketplace.</p>
+                        <a href="#" class="flex text-[.875rem] lg:text-base no-underline group relative w-fit items-center border-2 font-sans font-semibold leading-none uppercase transition duration-200 md:border-[3px] active:scale-95 h-[3.6em] px-5 bg-transparent hover:bg-white hover:text-black hover:border-white gap-[.4em]">
+                            <span class="whitespace-nowrap transition duration-200 group-hover:translate-x-0 translate-x-[.7em]">Meet Our Amazing Team</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="shrink-0 opacity-0 transition duration-200 group-hover:opacity-100 group-hover:translate-x-0 w-[1.33em] h-[1.33em] translate-x-[-0.4em]"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="press_section" class="h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible">
+            <div class="press_bg absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+            <div class="press_sq w-[47vh] h-[47vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-light-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center drop-shadow-[0_0_30px_rgba(0,0,0,0.7)]">
+                    we get you noticed
+                </h2>
+            </div>
+            <div id="press_button" class="w-full absolute bottom-14 left-0 right-0 flex text-[.6rem] items-center justify-center">    
+                <a href="#" class="flex text-[.875rem] lg:text-base no-underline group relative w-fit items-center border-2 font-sans font-semibold leading-none uppercase transition duration-200 md:border-[3px] active:scale-95 h-[3.6em] px-5 text-white bg-transparent hover:bg-white border-white hover:text-black hover:border-white gap-[.4em]">
+                    <span class="whitespace-nowrap transition duration-200 group-hover:translate-x-0 translate-x-[.7em]">View Some Press Hits</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="shrink-0 opacity-0 transition duration-200 group-hover:opacity-100 group-hover:translate-x-0 w-[1.33em] h-[1.33em] translate-x-[-0.4em]"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="invest_section" class="h-screen w-full fixed top-0 left-0 right-0 bottom-0 overflow-hidden scroll_invisible -z-10">
+            <div class="invest_bg absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+            <div class="invest_sq w-[47vh] h-[100vh] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            </div>
+            <div class="mx-auto w-[90%] h-screen max-w-[90%] main_text_wrapper">
+                <h2 class="main_text uppercase font-utd-cond-b text-light-white absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-wrap md:text-nowrap text-center drop-shadow-[0_0_30px_rgba(0,0,0,0.7)]">
+                    we invest in excellence
+                </h2>
+            </div>
+            <div id="invest_button" class="w-full absolute bottom-14 left-0 right-0 flex text-[.6rem] items-center justify-center">    
+                <a href="#" class="flex text-[.875rem] lg:text-base no-underline group relative w-fit items-center border-2 font-sans font-semibold leading-none uppercase transition duration-200 md:border-[3px] active:scale-95 h-[3.6em] px-5 text-white bg-transparent hover:bg-white border-white hover:text-black hover:border-white gap-[.4em]">
+                    <span class="whitespace-nowrap transition duration-200 group-hover:translate-x-0 translate-x-[.7em]">View More investments</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="shrink-0 opacity-0 transition duration-200 group-hover:opacity-100 group-hover:translate-x-0 w-[1.33em] h-[1.33em] translate-x-[-0.4em]"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </section>
+
+        <section class="h-[400vh] -z-10">
+
+        </section>
+        <footer class="relative w-full text-white md:flex h-screen z-50">
+            <div class="flex w-full sm:h-1/2 flex-col items-center justify-between space-y-8 bg-light-red transition-colors hover:bg-light-red-hover md:h-auto md:w-1/2 md:justify-center lg:w-3/5 lg:px-4"> 
+                <a href="#" class="mb-8 flex text-5xl lg:text-7xl h-full w-full items-center justify-center py-[25%] group">
+                    <span class="font-utd-cond-b uppercase
+                    relative
+                    inline-block
+                    ease-arrow
+                    after:content-['→']
+                    after:-translate-y-1.5
+                    after:inline-block
+                    after:absolute
+                    after:font-gtc-400-b
+                    after:right-0
+                    after:opacity-0
+                    after:-translate-x-10
+                    after:transition-all
+                    after:duration-300
+                    group-hover:after:opacity-100
+                    group-hover:after:translate-x-12
+                    lg:group-hover:after:translate-x-16
+                    ">Let's Chat</span>
+                </a>
+            </div>
+            <!-- -------- -->
+             <div class="flex min-h-1/2 w-full flex-col justify-between bg-dark-red px-6 py-12 md:h-auto md:min-h-min md:w-1/2 md:px-8 md:pt-24 lg:w-2/5 lg:px-12 sm:pt-28">
+                <div class="grid max-w-2xl grid-cols-2 mb-8 font-gtc-400">
+                    <div class="flex flex-col">
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Life at Fueled
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Values
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Design
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Growth
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Android
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            iOS
+                        </a>
+                    </div>
+                    <div class="flex flex-col">
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Digital transformation
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Web Development
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Smart Contract
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Branding
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Dapps
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Web3
+                        </a>
+                        <a href="#" class="transition duration-500 ease-in-out no-underline hover:opacity-75 hover:underline py-0.5 xl:text-lg ">
+                            Defi
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pt-6 text-center sm:text-left">
+                    <a href="#" class="text-sm max-w-none transition-opacity hover:opacity-75 font-gtc-400-b block mb-4">
+                        &copy; 2025 | Established 2009
+                    </a>
+                    <div class="flex flex-col pt-1 text-sm gap-1 font-gtc-400">
+                        <div class="flex flex-col gap-2">
+                            <a href="https://github.com/nima-frontend" class="underline opacity-75 transition-opacity hover:opacity-100 hover:text-white">
+                                Redesigned by Nima Pourdad <i class="fa fa-github"></i>
+                            </a>
+                            <address class="not-italic opacity-75">
+                                430 W 14th St, New York, NY 10014
+                            </address>
+                        </div>
+                        <div class="mt-5 flex items-center gap-2 justify-center sm:justify-start">
+                            <a href="#" class="underline opacity-75 transition-opacity hover:text-white hover:opacity-100">
+                                Privacy Policy
+                            </a>
+                            <a href="#" class="inline-flex items-center space-x-1 underline opacity-75 hover:text-white hover:opacity-100">
+                                <svg width="24" height="24" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="m9 64.5 6-8m0 0L26 61l14.5-1 12-6.5 8-12.5 3-12.5-1.5-12L58 7l-6.5 5.5-11 4-12.5 3-9 4-7 7.5-3 8.5 1.5 10 4.5 7zm0 0 7-8 3-2.5m7-4-7 4m7-4 7-4m-7 4 8 3.25L45.5 50M54 20.5l-4.5 9-3.5 3.25-1.75 1.625M25 46l1-10-2.5-9M39 38l3.5-2 1.75-1.625M39 38l1.5-9.5-.5-7m4.25 12.875L50.5 35l5 2" stroke="#FFF" stroke-width="3"></path></svg>
+                                <span>Fueled is carbon neutral</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </footer>
+    </main>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
