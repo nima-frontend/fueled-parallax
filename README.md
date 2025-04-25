@@ -5,7 +5,7 @@
 - [Demo Project](https://nima-frontend.github.io/fueled-parallax/)
 - Developed by Nima Pourdad
 - Created - 2025-25-4
-- Technologies Used - Html , css , JS 
+- Technologies Used - Html , css , Tailwind , JS 
 - Role - Frontend
 - How to reach me : with my linkedin  👇
   
